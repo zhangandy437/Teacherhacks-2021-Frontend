@@ -15,6 +15,7 @@
 		50EF28AB26E320E600E4419D /* LogInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF288026E320E400E4419D /* LogInPageView.swift */; };
 		50EF28AC26E320E600E4419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EF288126E320E600E4419D /* Assets.xcassets */; };
 		50EF28AD26E320E600E4419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EF288126E320E600E4419D /* Assets.xcassets */; };
+		AA30515526E3FA2800B5F2C3 /* AttendenceReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA30515426E3FA2800B5F2C3 /* AttendenceReportView.swift */; };
 		AC5EB90326E3349700B4BDBC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90226E3349700B4BDBC /* SignIn.swift */; };
 		AC5EB90426E3349700B4BDBC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90226E3349700B4BDBC /* SignIn.swift */; };
 		AC5EB90C26E3441B00B4BDBC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */; };
@@ -53,6 +54,7 @@
 		50EF28A126E320E600E4419D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EF28A526E320E600E4419D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		50EF28A726E320E600E4419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA30515426E3FA2800B5F2C3 /* AttendenceReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceReportView.swift; sourceTree = "<group>"; };
 		AC5EB90226E3349700B4BDBC /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				50EF288126E320E600E4419D /* Assets.xcassets */,
 				AC5EB90226E3349700B4BDBC /* SignIn.swift */,
 				AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */,
+				AA30515426E3FA2800B5F2C3 /* AttendenceReportView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5EB90326E3349700B4BDBC /* SignIn.swift in Sources */,
+				AA30515526E3FA2800B5F2C3 /* AttendenceReportView.swift in Sources */,
 				AC5EB90C26E3441B00B4BDBC /* CircleImage.swift in Sources */,
 				50EF28AA26E320E600E4419D /* LogInPageView.swift in Sources */,
 				50EF28A826E320E600E4419D /* AttendEaseApp.swift in Sources */,

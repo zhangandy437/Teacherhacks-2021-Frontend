@@ -22,26 +22,25 @@ struct SignInView: View {
                      text: $username
                 ) { isEditing in
                     self.isEditingUser = isEditing
-                } onCommit: {
-                    
                 }
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
-               
-        
-            
-            TextField(
+            SecureField(
                     "Password",
-                     text: $password
-                ) { isEditing in
-                    self.isEditingPass = isEditing
-                } onCommit: {
-                    
-                }
+                    text: $password
+            ) {
+                
+            }
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
+            Spacer()
         }
-        
+        .frame(
+              minWidth: 0,
+              maxWidth: 100,
+              minHeight: 0,
+              maxHeight: 75
+            )
     }
 }
 

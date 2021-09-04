@@ -17,6 +17,8 @@
 		50EF28AD26E320E600E4419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EF288126E320E600E4419D /* Assets.xcassets */; };
 		AC5EB90326E3349700B4BDBC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90226E3349700B4BDBC /* SignInView.swift */; };
 		AC5EB90426E3349700B4BDBC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90226E3349700B4BDBC /* SignInView.swift */; };
+		AC5EB90C26E3441B00B4BDBC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */; };
+		AC5EB90D26E3441B00B4BDBC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		50EF28A526E320E600E4419D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		50EF28A726E320E600E4419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5EB90226E3349700B4BDBC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				50EF288026E320E400E4419D /* ContentView.swift */,
 				50EF288126E320E600E4419D /* Assets.xcassets */,
 				AC5EB90226E3349700B4BDBC /* SignInView.swift */,
+				AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -313,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5EB90326E3349700B4BDBC /* SignInView.swift in Sources */,
+				AC5EB90C26E3441B00B4BDBC /* CircleImage.swift in Sources */,
 				50EF28AA26E320E600E4419D /* ContentView.swift in Sources */,
 				50EF28A826E320E600E4419D /* AttendEaseApp.swift in Sources */,
 			);
@@ -323,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5EB90426E3349700B4BDBC /* SignInView.swift in Sources */,
+				AC5EB90D26E3441B00B4BDBC /* CircleImage.swift in Sources */,
 				50EF28AB26E320E600E4419D /* ContentView.swift in Sources */,
 				50EF28A926E320E600E4419D /* AttendEaseApp.swift in Sources */,
 			);

@@ -41,8 +41,20 @@ struct SignInView: View {
               minHeight: 0,
               maxHeight: 75
             )
+        
+        Button("Sign In", action: signIn)
+        
+    }
+    
+    func signIn(){
+          let params = ["username": self.username, "password": self.password] as Dictionary<String, String>
+          print(params)
+        
     }
 }
+
+
+
 
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {

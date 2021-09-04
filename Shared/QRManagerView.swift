@@ -12,7 +12,7 @@ struct TeacherId{
     static var id: String? {
         didSet {
             print(id)
-            QRScannerView()
+            //QRScannerView()
         }
     }
 }

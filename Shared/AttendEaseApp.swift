@@ -13,7 +13,7 @@ struct AttendEaseApp: App {
     var body: some Scene {
         WindowGroup {
             //LogInPageView()
-            QRScannerView()
+            //QRScannerView()
         }
     }
 }

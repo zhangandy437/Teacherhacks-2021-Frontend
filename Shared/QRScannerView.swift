@@ -28,20 +28,6 @@ struct QRScannerView: View {
         Button("Start Attendance", action: scan)
     }
 
-
-    func scan() -> Return Type {
-       return CodeScannerView(codeTypes: [.qr]) {result in
-            switch result {
-                case .success(let code):
-                    self.scannedCode = code
-                    print("Found code: \(code)")
-                case .failure(let error):
-                    print(error.localizedDescription)
-                }
-        }
-
-    }
-
 }
 
 

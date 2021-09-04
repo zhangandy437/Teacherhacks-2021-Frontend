@@ -1,3 +1,18 @@
+# OS X temporary files
+.DS_Store
+.Trashes
+
+# Xcode User settings
+xcuserdata/
+
+# Swift Package Manager
+Packages/
+Package.resolved
+.swiftpm
+
+# Pods
+Pods/
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,11 @@
 		AC5EB90426E3349700B4BDBC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90226E3349700B4BDBC /* SignIn.swift */; };
 		AC5EB90C26E3441B00B4BDBC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */; };
 		AC5EB90D26E3441B00B4BDBC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */; };
+		ACCEA08F26E3E2F90091E7C9 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCEA08E26E3E2F90091E7C9 /* QRScannerView.swift */; };
+		ACCEA09026E3E2F90091E7C9 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCEA08E26E3E2F90091E7C9 /* QRScannerView.swift */; };
+		ACCEA09326E3E3630091E7C9 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = ACCEA09226E3E3630091E7C9 /* CodeScanner */; };
+		ACCEA09626E403D00091E7C9 /* QRManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCEA09526E403D00091E7C9 /* QRManagerView.swift */; };
+		ACCEA09726E403D00091E7C9 /* QRManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCEA09526E403D00091E7C9 /* QRManagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,8 @@
 		50EF28A726E320E600E4419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5EB90226E3349700B4BDBC /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		ACCEA08E26E3E2F90091E7C9 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		ACCEA09526E403D00091E7C9 /* QRManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRManagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCEA09326E3E3630091E7C9 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +115,9 @@
 				50EF287F26E320E400E4419D /* AttendEaseApp.swift */,
 				50EF288026E320E400E4419D /* LogInPageView.swift */,
 				50EF288126E320E600E4419D /* Assets.xcassets */,
-				AC5EB90226E3349700B4BDBC /* SignIn.swift */,
-				AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */,
+				ACCEA08A26E3E2A50091E7C9 /* LogInPageViewAssets */,
+				ACCEA08E26E3E2F90091E7C9 /* QRScannerView.swift */,
+				ACCEA09526E403D00091E7C9 /* QRManagerView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -159,6 +168,15 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		ACCEA08A26E3E2A50091E7C9 /* LogInPageViewAssets */ = {
+			isa = PBXGroup;
+			children = (
+				AC5EB90226E3349700B4BDBC /* SignIn.swift */,
+				AC5EB90B26E3441B00B4BDBC /* CircleImage.swift */,
+			);
+			path = LogInPageViewAssets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +193,9 @@
 			dependencies = (
 			);
 			name = "AttendEase (iOS)";
+			packageProductDependencies = (
+				ACCEA09226E3E3630091E7C9 /* CodeScanner */,
+			);
 			productName = "AttendEase (iOS)";
 			productReference = 50EF288626E320E600E4419D /* AttendEase.app */;
 			productType = "com.apple.product-type.application";
@@ -266,6 +287,9 @@
 				Base,
 			);
 			mainGroup = 50EF287926E320E400E4419D;
+			packageReferences = (
+				ACCEA09126E3E3630091E7C9 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 50EF288726E320E600E4419D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,7 +343,9 @@
 				AC5EB90326E3349700B4BDBC /* SignIn.swift in Sources */,
 				AC5EB90C26E3441B00B4BDBC /* CircleImage.swift in Sources */,
 				50EF28AA26E320E600E4419D /* LogInPageView.swift in Sources */,
+				ACCEA09626E403D00091E7C9 /* QRManagerView.swift in Sources */,
 				50EF28A826E320E600E4419D /* AttendEaseApp.swift in Sources */,
+				ACCEA08F26E3E2F90091E7C9 /* QRScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +356,9 @@
 				AC5EB90426E3349700B4BDBC /* SignIn.swift in Sources */,
 				AC5EB90D26E3441B00B4BDBC /* CircleImage.swift in Sources */,
 				50EF28AB26E320E600E4419D /* LogInPageView.swift in Sources */,
+				ACCEA09726E403D00091E7C9 /* QRManagerView.swift in Sources */,
 				50EF28A926E320E600E4419D /* AttendEaseApp.swift in Sources */,
+				ACCEA09026E3E2F90091E7C9 /* QRScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q59W8CV9A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -490,7 +519,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ccac.AttendEase;
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.AttendEase2;
 				PRODUCT_NAME = AttendEase;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -504,6 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q59W8CV9A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -511,7 +541,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ccac.AttendEase;
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.AttendEase2;
 				PRODUCT_NAME = AttendEase;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -698,6 +728,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ACCEA09126E3E3630091E7C9 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACCEA09226E3E3630091E7C9 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACCEA09126E3E3630091E7C9 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50EF287A26E320E400E4419D /* Project object */;
 }

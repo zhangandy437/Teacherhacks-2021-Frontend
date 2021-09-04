@@ -10,8 +10,7 @@ import SwiftUI
 struct LogInPageView: View {
     var body: some View {
         ZStack {
-            Color.white
-                .ignoresSafeArea()
+           
             VStack {
                 CircleImage()
                     .padding(25)

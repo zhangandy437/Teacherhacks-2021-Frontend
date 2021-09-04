@@ -11,7 +11,8 @@ import SwiftUI
 struct AttendEaseApp: App {
     var body: some Scene {
         WindowGroup {
-            LogInPageView()
+            //LogInPageView()
+            QRScannerView()
         }
     }
 }
